@@ -161,3 +161,46 @@ nav > img {
   align-items: center;
   justify-content: center;
 }
+
+
+@media only screen and (max-width: 600px) {
+  .navBar{
+    width: 100vw;
+  }
+  .navItems{
+    flex-wrap: wrap;
+    padding: 1rem 2rem;
+  }
+  .s1Div{
+    height: 100vh;
+  }
+  .s1Div > img{
+    height: 15%;
+    top: 10%;
+  }
+  .s1mainHeading{
+    font-size: 2rem;
+  }
+  .s1secHeading{
+    font-size: 25px;
+    top: 10%;
+  }
+  .s1Text{
+    bottom: 40%;
+    line-height: 1.5rem;
+  }
+  .section2{
+    margin-top: 20%;
+  }
+  .s2Text{
+    bottom: 0;
+    line-height: 1.5rem;
+  }
+  .s1Button{
+    top: 65%;
+    padding: 3.5% 12%;
+  }
+  .section2 img{
+    height: 30%;
+  }
+}
